@@ -128,16 +128,6 @@ frontend/
 - **Multilíngue**: Suporte para português e inglês
 - **Analytics**: Integração com ferramentas de análise de tráfego
 
-## 🔒 Segurança
-
-O projeto implementa várias camadas de segurança:
-
-- **CORS configurado**: Restrição de acesso à API por domínios não autorizados
-- **Proteção contra SQL Injection**: Uso de PreparedStatements via Spring Data JPA
-- **Tratamento Global de Exceções**: Implementação de ExceptionHandler centralizado
-- **Validação de Entrada**: Validação robusta de todos os dados recebidos
-- **Armazenamento Seguro de Senhas**: Utilização de algoritmo BCrypt
-- **JWT**: Tokens seguros com tempo de expiração para autenticação
 
 ## 🚢 Deploy
 
@@ -161,7 +151,13 @@ A implantação utiliza GitHub Actions para CI/CD:
 
 ## 📊 Estatísticas do Repositório
 
-[![Gráfico de Contribuições](https://github-readme-activity-graph.vercel.app/graph?username=MatheusMV05&theme=minimal&area=true&hide_border=true)](https://github.com/MatheusMV05/projetos3g2)
+## Atividade do Repositório
+
+[![Commits por semana](https://img.shields.io/github/commit-activity/w/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
+[![Commits por mês](https://img.shields.io/github/commit-activity/m/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
+[![Commits por ano](https://img.shields.io/github/commit-activity/y/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
+
+![Gráfico de Contribuidores](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=MatheusMV05/projetos3g2)
 
 ![Estatísticas do Repositório](https://github-readme-stats.vercel.app/api/pin/?username=MatheusMV05&repo=projetos3g2&theme=vue)
 
