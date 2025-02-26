@@ -1,174 +1,179 @@
-# Projetos3 🚀
+# Site Institucional BRASFI
 
-[![GitHub license](https://img.shields.io/github/license/MatheusMV05/projetos3)](https://github.com/MatheusMV05/projetos3/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/MatheusMV05/projetos3)](https://github.com/MatheusMV05/projetos3/issues)
-[![GitHub stars](https://img.shields.io/github/stars/MatheusMV05/projetos3)](https://github.com/MatheusMV05/projetos3/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/MatheusMV05/projetos3)](https://github.com/MatheusMV05/projetos3/network)
-![Azure DevOps builds](https://img.shields.io/azure-devops/build/seu-projeto/seu-pipeline)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/seu-projeto/seu-pipeline)
+[![GitHub stars](https://img.shields.io/github/stars/brasfi/site-institucional?style=social)](https://github.com/brasfi/site-institucional/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/brasfi/site-institucional?style=social)](https://github.com/brasfi/site-institucional/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/pulls)
+[![GitHub last commit](https://img.shields.io/github/last-commit/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/commits/main)
+[![GitHub contributors](https://img.shields.io/github/contributors/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/graphs/contributors)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Breve descrição do projeto explicando seu propósito principal e funcionalidades em poucas linhas.
+## 📋 Sobre o Projeto
 
-## ⚡ Tecnologias Utilizadas
+O Site Institucional da BRASFI (Aliança Brasileira de Finanças e Investimentos Sustentáveis) é uma plataforma web moderna, responsiva e de alto desempenho desenvolvida para consolidar a presença digital da organização, facilitar a comunicação com stakeholders e divulgar iniciativas e eventos relacionados a finanças sustentáveis.
 
-### Backend
-- ☕ Java 17
-- 🍃 Spring Boot 3.x
-- 🔒 Spring Security
-- 🎯 Spring Data JPA
-- 🐘 PostgreSQL
-- 🔧 Maven
-- 📚 Swagger/OpenAPI
+### 🎯 Objetivos
 
-### Frontend
-- ⚛️ React 18
-- 🎨 Material UI
-- 🔄 React Query
-- 🛣️ React Router
-- 📡 Axios
-- 💅 Styled Components
+- Fortalecer a identidade institucional da BRASFI no ambiente digital
+- Disponibilizar conteúdo relevante sobre finanças e investimentos sustentáveis
+- Divulgar eventos, iniciativas e parcerias da organização
+- Facilitar o contato entre a BRASFI e diferentes públicos de interesse
+- Oferecer uma experiência de navegação otimizada em qualquer dispositivo
 
-### DevOps & Cloud
-- ☁️ Microsoft Azure
-  - 🌐 Azure App Service
-  - 🗄️ Azure Database for PostgreSQL
-  - 🔄 Azure DevOps
-  - 📦 Azure Container Registry
-- 🐳 Docker
-- 🧪 JUnit 5 & React Testing Library
+## 🏗️ Arquitetura
 
-## 🛠️ Configuração do Ambiente
+O projeto utiliza uma **arquitetura desacoplada**, seguindo o padrão MVC com API RESTful:
 
-1. Configure as variáveis de ambiente:
-   - Crie arquivos `.env` para backend e frontend baseados nos `.env.example`
-   - Configure as credenciais do Azure
+- **Back-end**: API REST desenvolvida com Spring Boot 3.x
+- **Front-end**: Aplicação SPA (Single Page Application) construída com React
+- **Banco de Dados**: PostgreSQL
+- **Autenticação**: JWT (implementada para áreas restritas)
+- **Infraestrutura**: Microsoft Azure (App Service, Database for PostgreSQL e Static Web Apps)
 
-2. Instale as dependências:
+## 🚀 Tecnologias
 
-Backend:
-```bash
-cd backend
-mvn install
-```
+### Back-end (Spring Boot 3.x)
 
-Frontend:
-```bash
-cd frontend
-npm install
-```
+- **Spring Boot Web**: Framework para criação da API REST
+- **Spring Data JPA**: Camada de persistência e acesso a dados
+- **PostgreSQL**: Sistema de gerenciamento de banco de dados relacional
+- **Spring Security + JWT**: Implementação de autenticação e autorização
+- **Lombok**: Biblioteca para redução de código boilerplate
+- **Validation**: Validação robusta de dados de entrada
+- **Spring Mail**: Serviço para envio de e-mails a partir de formulários
+- **SpringDoc OpenAPI (Swagger)**: Documentação automática da API
 
-## 🚀 Executando o Projeto
+### Front-end (React + Tailwind)
 
-### Ambiente Local
+- **React.js**: Biblioteca JavaScript para construção de interfaces
+- **React Router**: Gerenciamento de rotas e navegação
+- **Axios**: Cliente HTTP para comunicação com a API
+- **TailwindCSS**: Framework CSS para estilização
+- **Formik + Yup**: Gerenciamento e validação de formulários
+- **React Hook Form**: Biblioteca para criação de formulários dinâmicos
+- **Framer Motion**: Biblioteca para animações de interface
 
-Backend:
-```bash
-cd backend
-mvn spring-boot:run
-```
+## 📦 Estrutura do Projeto
 
-Frontend:
-```bash
-cd frontend
-npm run dev
-```
-
-### Usando Docker:
-
-```bash
-docker-compose up --build
-```
-
-- Backend: `http://localhost:8080`
-- Frontend: `http://localhost:5173`
-- Swagger UI: `http://localhost:8080/swagger-ui.html`
-
-## 📁 Estrutura do Projeto
+### Back-end
 
 ```
-/
-├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   └── resources/
-│   │   └── test/
-│   └── pom.xml
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── hooks/
-│   ├── public/
-│   └── package.json
-│
-├── .github/
-├── azure-pipelines.yml
-└── docker-compose.yml
+backend/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── brasfi/
+│   │   │           └── site_institucional/
+│   │   │               ├── config/        # Configurações (Spring Security, CORS, etc.)
+│   │   │               ├── controller/    # Controladores REST
+│   │   │               ├── dto/           # Objetos de Transferência de Dados
+│   │   │               ├── exception/     # Tratamento global de exceções
+│   │   │               ├── model/         # Entidades JPA
+│   │   │               ├── repository/    # Interfaces de repositório
+│   │   │               ├── security/      # Implementação de segurança (JWT)
+│   │   │               ├── service/       # Lógica de negócio
+│   │   │               └── Application.java
+│   │   └── resources/
+│   │       ├── application.properties # Configurações da aplicação
+│   │       └── static/                # Recursos estáticos
+│   └── test/                          # Testes unitários e de integração
+├── pom.xml                            # Dependências Maven
+└── README.md
+```
+## Diagrama de classes SR1
+
+![SR1](https://via.placeholder.com/800x400?text=SR1)
+### Front-end
+
+```
+frontend/
+├── public/                # Arquivos públicos
+├── src/
+│   ├── assets/            # Imagens, fontes, etc.
+│   ├── components/        # Componentes reutilizáveis
+│   │   ├── common/        # Componentes genéricos (botões, cards, etc.)
+│   │   └── layout/        # Componentes de layout (header, footer, etc.)
+│   ├── contexts/          # Contextos React (auth, theme, etc.)
+│   ├── hooks/             # Custom hooks
+│   ├── pages/             # Páginas da aplicação
+│   ├── services/          # Serviços para comunicação com a API
+│   ├── styles/            # Estilos globais
+│   ├── utils/             # Funções utilitárias
+│   ├── App.js             # Componente principal
+│   ├── index.js           # Ponto de entrada
+│   └── routes.js          # Configuração de rotas
+├── .env                   # Variáveis de ambiente
+├── package.json           # Dependências NPM
+├── tailwind.config.js     # Configuração do Tailwind
+└── README.md
 ```
 
-## 🧪 Testes
+## 📝 Funcionalidades
 
-Backend:
-```bash
-cd backend
-mvn test
-```
+### MVP (Versão Inicial)
 
-Frontend:
-```bash
-cd frontend
-npm test
-```
+- **Home**: Apresentação institucional com destaques principais
+- **Sobre Nós**: História, missão, visão e valores da BRASFI
+- **Eventos & Iniciativas**: Listagem e detalhes de eventos passados e futuros
+- **Blog/Notícias**: Sistema de publicação e visualização de conteúdos
+- **Contato**: Formulário de contato com envio de e-mail
+- **Parceiros**: Exibição de organizações parceiras com seus respectivos logos
+- **Área Restrita para Membros**: Dashboard com conteúdo exclusivo
 
-## ☁️ Deploy Azure
+### Funcionalidades Futuras (Pós-MVP)
 
-1. Configure o Azure CLI:
-```bash
-az login
-```
+- **Cadastro para Newsletter**: Sistema de inscrição para recebimento de informativos
+- **Sistema de Comentários**: Possibilidade de interação nos artigos do blog
+- **Multilíngue**: Suporte para português e inglês
+- **Analytics**: Integração com ferramentas de análise de tráfego
 
-2. Deploy do Backend:
-```bash
-az webapp up --runtime JAVA:17-java17 --sku B1 --name seu-app-name
-```
+## 🔒 Segurança
 
-3. Deploy do Frontend:
-```bash
-az staticwebapp create --name seu-frontend-name --resource-group seu-grupo
-cd frontend && npm run build
-az staticwebapp deploy --app-location ./dist
-```
+O projeto implementa várias camadas de segurança:
 
-## 🤝 Contribuindo
+- **CORS configurado**: Restrição de acesso à API por domínios não autorizados
+- **Proteção contra SQL Injection**: Uso de PreparedStatements via Spring Data JPA
+- **Tratamento Global de Exceções**: Implementação de ExceptionHandler centralizado
+- **Validação de Entrada**: Validação robusta de todos os dados recebidos
+- **Armazenamento Seguro de Senhas**: Utilização de algoritmo BCrypt
+- **JWT**: Tokens seguros com tempo de expiração para autenticação
 
-1. Fork o projeto
-2. Crie sua branch de feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+## 🚢 Deploy
 
-## 📌 Versionamento
+### Infraestrutura Azure
 
-Usamos [SemVer](http://semver.org/) para versionamento. Para as versões disponíveis, veja as [tags neste repositório](https://github.com/MatheusMV05/projetos3/tags).
+O projeto é hospedado na infraestrutura Microsoft Azure:
 
-## ✨ Autores
+1. **Azure App Service**: Hospedagem do back-end Spring Boot
+2. **Azure Database for PostgreSQL**: Serviço gerenciado para o banco de dados
+3. **Azure Static Web Apps**: Hospedagem do front-end React
 
-* **Matheus Martins** - ** - [MatheusMV05](https://github.com/MatheusMV05)
+### Pipeline de Implantação
 
-Veja também a lista de [contribuidores](https://github.com/MatheusMV05/projetos3/contributors) que participaram deste projeto.
+A implantação utiliza GitHub Actions para CI/CD:
 
-## 📝 Licença
+1. Commit realizado na branch principal (`main`)
+2. GitHub Actions executa:
+   - Testes automatizados
+   - Build do projeto
+   - Deploy no ambiente Azure
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes
+## 📊 Estatísticas do Repositório
 
-## 📊 Status do Projeto
+[![Actividade do Repositório](https://activity-graph.herokuapp.com/graph?username=brasfi&theme=minimal)](https://github.com/brasfi/site-institucional)
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
-* Versão atual: 1.0.0
-* Última atualização: 17/02/2025
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+## 📞 Contato
+
+Para mais informações sobre o projeto, entre em contato com a equipe de desenvolvimento:
+
+- Email: studioryb.contato@gmail.com
 
 ---
-⌨️ com ❤️ pela equipe de G2 😊
+
+Desenvolvido com ❤️ para a Aliança Brasileira de Finanças e Investimentos Sustentáveis (BRASFI)
