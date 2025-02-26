@@ -149,17 +149,11 @@ A implantação utiliza GitHub Actions para CI/CD:
    - Build do projeto
    - Deploy no ambiente Azure
 
-## 📊 Estatísticas do Repositório
+## 📊 Equipe
 
-## Atividade do Repositório
-
-[![Commits por semana](https://img.shields.io/github/commit-activity/w/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
-[![Commits por mês](https://img.shields.io/github/commit-activity/m/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
-[![Commits por ano](https://img.shields.io/github/commit-activity/y/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
-
-![Gráfico de Contribuidores](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=MatheusMV05/projetos3g2)
-
-![Estatísticas do Repositório](https://github-readme-stats.vercel.app/api/pin/?username=MatheusMV05&repo=projetos3g2&theme=vue)
+<a href="https://github.com/MatheusMV05/projetos3g2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MatheusMV05/projetos3g2" />
+</a>
 
 ## 📄 Licença
 
