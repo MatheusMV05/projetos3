@@ -161,8 +161,9 @@ A implantação utiliza GitHub Actions para CI/CD:
 
 ## 📊 Estatísticas do Repositório
 
-[![Actividade do Repositório](https://activity-graph.herokuapp.com/graph?username=brasfi&theme=minimal)](https://github.com/brasfi/site-institucional)
+[![Gráfico de Contribuições](https://github-readme-activity-graph.vercel.app/graph?username=brasfi&theme=minimal&area=true&hide_border=true)](https://github.com/brasfi/site-institucional)
 
+![Estatísticas do Repositório](https://github-readme-stats.vercel.app/api/pin/?username=brasfi&repo=site-institucional&theme=vue)
 
 ## 📄 Licença
 
