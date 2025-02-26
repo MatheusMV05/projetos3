@@ -1,11 +1,11 @@
 # Site Institucional BRASFI
 
-[![GitHub stars](https://img.shields.io/github/stars/brasfi/site-institucional?style=social)](https://github.com/brasfi/site-institucional/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/brasfi/site-institucional?style=social)](https://github.com/brasfi/site-institucional/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/pulls)
-[![GitHub last commit](https://img.shields.io/github/last-commit/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/commits/main)
-[![GitHub contributors](https://img.shields.io/github/contributors/brasfi/site-institucional)](https://github.com/brasfi/site-institucional/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/MatheusMV05/projetos3g2?style=social)](https://github.com/MatheusMV05/projetos3g2/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/MatheusMV05/projetos3g2?style=social)](https://github.com/MatheusMV05/projetos3g2/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/pulls)
+[![GitHub last commit](https://img.shields.io/github/last-commit/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
+[![GitHub contributors](https://img.shields.io/github/contributors/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/graphs/contributors)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📋 Sobre o Projeto
@@ -161,9 +161,9 @@ A implantação utiliza GitHub Actions para CI/CD:
 
 ## 📊 Estatísticas do Repositório
 
-[![Gráfico de Contribuições](https://github-readme-activity-graph.vercel.app/graph?username=brasfi&theme=minimal&area=true&hide_border=true)](https://github.com/brasfi/site-institucional)
+[![Gráfico de Contribuições](https://github-readme-activity-graph.vercel.app/graph?username=MatheusMV05&theme=minimal&area=true&hide_border=true)](https://github.com/MatheusMV05/projetos3g2)
 
-![Estatísticas do Repositório](https://github-readme-stats.vercel.app/api/pin/?username=brasfi&repo=site-institucional&theme=vue)
+![Estatísticas do Repositório](https://github-readme-stats.vercel.app/api/pin/?username=MatheusMV05&repo=projetos3g2&theme=vue)
 
 ## 📄 Licença
 
