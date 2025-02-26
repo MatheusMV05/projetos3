@@ -1,7 +1,6 @@
 # Site Institucional BRASFI
 
 [![GitHub stars](https://img.shields.io/github/stars/MatheusMV05/projetos3g2?style=social)](https://github.com/MatheusMV05/projetos3g2/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/MatheusMV05/projetos3g2?style=social)](https://github.com/MatheusMV05/projetos3g2/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/pulls)
 [![GitHub last commit](https://img.shields.io/github/last-commit/MatheusMV05/projetos3g2)](https://github.com/MatheusMV05/projetos3g2/commits/main)
